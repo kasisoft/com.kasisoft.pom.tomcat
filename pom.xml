@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>9</version>
+  </parent>  
+  
+  <packaging>pom</packaging>
+  
+  <groupId>com.kasisoft</groupId>
+  <artifactId>com.kasisoft.pom.tomcat</artifactId>
+  <version>7.0.57</version>
+
+  <name>Kasisoft :: Tomcat Container POM</name>
+  <url>https://kasisoft.com/bitbucket/projects/CON/repos/com.kasisoft.pom.tomcat/browse</url>
+  <description>POM providing dependencies of the tomcat container</description>
+  
+  <organization>
+    <name>Kasisoft</name>
+    <url>https://kasisoft.com</url>
+  </organization>
+  
+  <developers>
+    <developer>
+      <id>costamojan</id>
+      <name>Daniel Kasmeroglu</name>
+      <email>daniel.kasmeroglu@kasisoft.net</email>
+    </developer>
+  </developers>
+   
+  <dependencyManagement>
+    <dependencies>
+    
+      <!-- websocket-api.jar - hash: 1i0icnd -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-websocket-api</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- tomcat-coyote.jar - hash: 1w3k3dd -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-coyote</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- jasper-el.jar - hash: 16xpe9x -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-jasper-el</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- tomcat-i18n-fr.jar - hash: 1y9hnfk -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-i18n-fr</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- jsp-api.jar - hash: w58a8c -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-jsp-api</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- catalina-ant.jar - hash: 14ybk53 -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-catalina-ant</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- el-api.jar - hash: 1l14e5h -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-el-api</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- catalina-tribes.jar - hash: f1dybb -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-tribes</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- catalina.jar - hash: k96r9t -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-catalina</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- tomcat-i18n-ja.jar - hash: vu7pzb -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-i18n-ja</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- ecj-4.4.jar - hash: 3612b4 -->
+      <dependency>
+        <groupId>org.eclipse.jdt.core.compiler</groupId>
+        <artifactId>ecj</artifactId>
+        <version>4.4</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- tomcat-util.jar - hash: 1qtsji2 -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-util</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- tomcat-dbcp.jar - hash: vc13il -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-dbcp</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- jasper.jar - hash: 10s5faf -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-jasper</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- servlet-api.jar - hash: 1d4lk6i -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-servlet-api</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- annotations-api.jar - hash: 1rdv8xl -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-annotations-api</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- catalina-ha.jar - hash: 1trum30 -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-catalina-ha</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- tomcat7-websocket.jar - hash: 9rn01n -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat7-websocket</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- tomcat-api.jar - hash: 17b175g -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-api</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- tomcat-jdbc.jar - hash: vrvn4g -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-jdbc</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+  
+      <!-- tomcat-i18n-es.jar - hash: 7syqeb -->
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-i18n-es</artifactId>
+        <version>7.0.57</version>
+        <scope>provided</scope>
+      </dependency>
+    
+    </dependencies>
+  </dependencyManagement>
+   
+   
+  <profiles>
+    <profile>
+      <id>release-sign-artifacts</id>
+      <activation>
+        <property>
+          <name>performRelease</name>
+          <value>true</value>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.sonatype.plugins</groupId>
+            <artifactId>nexus-staging-maven-plugin</artifactId>
+            <extensions>true</extensions>
+            <configuration>
+              <serverId>sonatype-nexus-staging</serverId>
+              <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+              <autoReleaseAfterClose>true</autoReleaseAfterClose>
+            </configuration>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-release-plugin</artifactId>
+            <configuration>
+              <!-- [MRELEASE-263] -->
+              <mavenExecutorId>forked-path</mavenExecutorId>
+            </configuration>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>sign-artifacts</id>
+                <phase>verify</phase>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+    
+  <distributionManagement>
+    <repository>
+      <id>sonatype-nexus-staging</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
+  
+</project>
