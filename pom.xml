@@ -13,7 +13,7 @@
   
   <groupId>com.kasisoft</groupId>
   <artifactId>com.kasisoft.pom.tomcat</artifactId>
-  <version>8.5.13</version>
+  <version>8.0.46</version>
 
   <name>Kasisoft :: Tomcat Container POM</name>
   <url>https://kasisoft.com/bitbucket/projects/CON/repos/com.kasisoft.pom.tomcat/browse</url>
@@ -35,209 +35,205 @@
   <dependencyManagement>
     <dependencies>
     
-      <!-- websocket-api.jar - hash: 1re9uni -->
+      <!-- websocket-api.jar - hash: 1g2ys84 -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-websocket-api</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- tomcat-coyote.jar - hash: 1ot9e22 -->
+      <!-- tomcat-coyote.jar - hash: 2ifned -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-coyote</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- jaspic-api.jar - hash: ura66h -->
-      <dependency>
-        <groupId>org.apache.tomcat</groupId>
-        <artifactId>tomcat-jaspic-api</artifactId>
-        <version>8.5.13</version>
-        <scope>provided</scope>
-      </dependency>
-  
-      <!-- jasper-el.jar - hash: 18njrg4 -->
+      <!-- jasper-el.jar - hash: 1p0v037 -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-jasper-el</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- tomcat-i18n-fr.jar - hash: bmterv -->
+      <!-- tomcat-i18n-fr.jar - hash: 1k6lfrq -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-i18n-fr</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- jsp-api.jar - hash: 18wlhc -->
+      <!-- jsp-api.jar - hash: 1h6cex2 -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-jsp-api</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- catalina-storeconfig.jar - hash: fy08u0 -->
+      <!-- catalina-storeconfig.jar - hash: 1oav5rj -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-storeconfig</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- tomcat-jni.jar - hash: sdze8o -->
+      <!-- tomcat-jni.jar - hash: duue8b -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-jni</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- tomcat-util-scan.jar - hash: 3np93a -->
+      <!-- tomcat-util-scan.jar - hash: 1tm1aeg -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-util-scan</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- catalina-ant.jar - hash: 1dmgosz -->
+      <!-- catalina-ant.jar - hash: 1pt4fbd -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-catalina-ant</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- el-api.jar - hash: 18tkhz4 -->
+      <!-- el-api.jar - hash: btbyst -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-el-api</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- catalina-tribes.jar - hash: 1uss86d -->
+      <!-- catalina-tribes.jar - hash: 13zomo5 -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-tribes</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- catalina.jar - hash: bs4xni -->
+      <!-- catalina.jar - hash: jxfmq7 -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-catalina</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- ecj-4.6.1.jar - hash: 60ghym -->
+      <!-- ecj-4.6.3.jar - hash: l9j2w7 -->
       <dependency>
         <groupId>org.eclipse.jdt.core.compiler</groupId>
         <artifactId>ecj</artifactId>
+        <!--
+        This version isn't correct but the artifact isn't currently
+        located within maven central. The differences are negligible. 
+        -->
         <version>4.6.1</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- tomcat-i18n-ja.jar - hash: 1ic1r23 -->
+      <!-- tomcat-i18n-ja.jar - hash: 1q4u5uj -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-i18n-ja</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- tomcat-util.jar - hash: fikt13 -->
+      <!-- tomcat-util.jar - hash: az9ffw -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-util</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- tomcat-dbcp.jar - hash: 1lbeam0 -->
+      <!-- tomcat-dbcp.jar - hash: 1ly21ow -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-dbcp</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- jasper.jar - hash: 1q3rt3c -->
+      <!-- jasper.jar - hash: 1bqbv99 -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-jasper</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- servlet-api.jar - hash: pm086p -->
+      <!-- servlet-api.jar - hash:  15xjkhk-->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-servlet-api</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- annotations-api.jar - hash: o68296 -->
+      <!-- annotations-api.jar - hash: d3z22a -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-annotations-api</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- catalina-ha.jar - hash: 11549w6 -->
+      <!-- catalina-ha.jar - hash: 1j7d9df -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-catalina-ha</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- tomcat-api.jar - hash: f7o05s -->
+      <!-- tomcat-api.jar - hash: x5inau -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-api</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- tomcat-websocket.jar - hash: 1cu5g3w -->
+      <!-- tomcat-websocket.jar - hash: bzu0h9 -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-websocket</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- tomcat-jdbc.jar - hash: 4loutm -->
+      <!-- tomcat-jdbc.jar - hash: xz9e09 -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-jdbc</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
   
-      <!-- tomcat-i18n-es.jar - hash: 1bcp0l1 -->
+      <!-- tomcat-i18n-es.jar - hash: 9qedut -->
       <dependency>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-i18n-es</artifactId>
-        <version>8.5.13</version>
+        <version>8.0.46</version>
         <scope>provided</scope>
       </dependency>
     
     </dependencies>
   </dependencyManagement>
-   
+
   <profiles>
     <profile>
       <id>release-sign-artifacts</id>
