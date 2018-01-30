@@ -26,7 +26,7 @@ Importing
         <dependency>
           <groupId>com.kasisoft</groupId>
           <artifactId>com.kasisoft.pom.tomcat</artifactId>
-          <version>8.5.20</version>
+          <version>8.5.16</version>
           <type>pom</type>
           <scope>import</scope>
         </dependency>
