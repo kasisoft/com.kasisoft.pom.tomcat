@@ -12,12 +12,11 @@
   
   <packaging>pom</packaging>
   
-  <groupId>com.kasisoft</groupId>
   <artifactId>com.kasisoft.pom.tomcat</artifactId>
   <version>8.5.16</version>
 
   <name>Kasisoft :: Tomcat Container POM</name>
-  <url>https://kasisoft.com/bitbucket/projects/CON/repos/com.kasisoft.pom.tomcat/browse</url>
+  <url>https://kasisoft.com/bitbucket/projects/POMS/repos/com.kasisoft.pom.tomcat/browse</url>
   <description>POM providing dependencies of the tomcat container</description>
   
   <organization>

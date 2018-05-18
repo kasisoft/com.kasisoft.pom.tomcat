@@ -7,7 +7,7 @@ Dependency declarations for the [tomcat](http://tomcat.apache.org/) container.
 Contact
 =======
 
-* daniel.kasmeroglu@kasisoft.net
+* [daniel.kasmeroglu@kasisoft.net](mailto:daniel.kasmeroglu@kasisoft.net)
 
 
 Maven
@@ -39,7 +39,7 @@ License
 
 MIT License
 
-Copyright (c) 2017 Daniel Kasmeroglu (Kasisoft)
+Copyright (c) 2018 Daniel Kasmeroglu (Kasisoft)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
