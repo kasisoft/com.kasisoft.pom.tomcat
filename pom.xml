@@ -5,8 +5,8 @@
   
   <parent>
     <groupId>com.kasisoft</groupId>
-    <artifactId>com.kasisoft.libs.parent-oss</artifactId>
-    <version>0.1</version>
+    <artifactId>com.kasisoft.pom.parent-oss</artifactId>
+    <version>0.2</version>
     <relativePath></relativePath>
   </parent>  
   
